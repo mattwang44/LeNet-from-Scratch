@@ -79,6 +79,7 @@ Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementati
 
 1. [Yann LeCun's paper](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
 2. [Marcel Wang's blog](http://hemingwang.blogspot.tw/search/label/_社團：技術：mAiLab)
+    * Special thanks to Marcel Wang for encouraging me to do this project.
 1. [agjayant's repo](https://github.com/agjayant/CNN-Numpy)
 2. [HiCraigChen's repo](https://github.com/HiCraigChen/LeNet)
 
