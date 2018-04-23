@@ -73,7 +73,7 @@ The structure used here is much alike, but still have some differences:
 
 ## Bug Alert
 
-Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementation to determine the learning rates for each trainable layer. However, my resulting range of learning rates is much smaller than the one given in the paper (maybe bugs exist in the SDLM code). Therefore, 100x original global learning rates are used.
+Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementation to determine the learning rates for each trainable layer. However, my resulting range of learning rates is much smaller than the one given in the paper (maybe bugs exist in the SDLM code). Therefore, 100x original global learning rates are used and work fine then.
 
 
 ## Reference
