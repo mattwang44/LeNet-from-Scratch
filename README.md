@@ -7,7 +7,7 @@ This is an implementation of LeNet5 from [Yann LeCun's paper](http://yann.lecun.
 
 ## Why LeNet5
 
-LeNet5 is the first ConvNet that using back propagation to update weights, acheived great success in hand writing recognition and utilized by AT&T for reading checks. Many believes that implementing LeNet5 is the best way to learning the programming of backprop for novice (like me). 
+LeNet is the first ConvNet that using back propagation to update weights, acheived great success in hand writing recognition and utilized by AT&T for reading checks. Many believes that implementing LeNet5 is the best way to learning the programming of backprop for novice (like me). 
 
 Demo by Yann LeCun (1993): 
 <p align="center">
@@ -37,7 +37,8 @@ LeNet5_from_scratch/
 ├── LeNet5_train.ipynb                 # Notebook for training and shows the results
 ├── RBF_initial_weight.ipynb           # Notebook shows the fixed weight (ASCII bitmap) in the RBF layer
 ├── ExeSpeedTest.ipynb                 # Comparison of different version of Conv. & Pooling functions
-├── Best_model.pkl                     # The model with 98.6% accuracy both on training and testing data
+├── Best_model.pkl                     # The model with 98.6% accuracy both on training and testing data 
+│                                      # Please download at [link] or try to train one by youtself :).
 │
 ├── MNIST/                             # Folder contains MNIST training and testing data
 │   ├── train-images-idx3-ubyte        # Training images
