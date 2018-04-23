@@ -66,14 +66,14 @@ The original structure is:
 
 The structure used here is much alike, but still have some differences:
 
-1. Substitue the **sub-sampling** with **average pooling**, which is more accpetable choice without trainable parameters in the layer and needless to be followed by an activation funciton. I've tried using max-pooling, but it blurs the feature maps in this case and gave low accuracy.
+1. Substitute the **sub-sampling** with **average pooling**, which is more accpetable choice without trainable parameters in the layer and needless to be followed by an activation funciton. I've tried using max-pooling, but it blurs the feature maps in this case and gave low accuracy.
 
-2. I used **momentum optimizer** when updating the weights to accelerate the training process, which wasn't used in the original LeNet5. 
+2. I used **momentum optimizer** (momentum=0.9) to accelerate the training process, which wasn't used in the original LeNet5. 
 
 
 ## Bug Alert
 
-Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementation to determine the learning rates for each trainable layer. However, my resulting range of learning rates is much smaller than the one given in the paper (maybe bugs exist in the SDLM code). Therefore, 100x original global learning rates are used and work fine then.
+Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementation to determine the learning rate for each trainable layer. However, resulting range of learning rates is much smaller than the one given in the paper (maybe bugs exist in the SDLM code). Therefore, 100x original global learning rates are used and it work fine then.
 
 
 ## Reference
