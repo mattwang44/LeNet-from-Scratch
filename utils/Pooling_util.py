@@ -86,7 +86,7 @@ def subsampling_backward(dA, weight, b, cache_A_):
 
 
 
-################################### functions below are USELESS ################################################
+################################### functions below are NOT USED in training ################################################
 def pool_forward_orig(A_prev, hparameters, mode = "max"):
     """
     Implements the forward pass of the pooling layer
