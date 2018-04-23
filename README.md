@@ -17,7 +17,7 @@ alt="LeNet demo" width="240" height="180" border="10" /></a></p>
 
 ## Result of Training 
 
-Highest accuracy of 98.6% on MNIST testing dataset has achieved in 20 epoches of training (93.5% after 1st epoch). The training (20 epoches) takes about 3.5 hours using CPU.
+Highest accuracy of 98.6% on MNIST testing dataset has achieved in 20 epoches of training (93.5% after 1st epoch). The training (20 epoches, batch size = 256) takes about 3.5 hours using CPU.
 
 <p align="center">
   <img width="460" height="300" src="./image/errRate.png">
@@ -33,20 +33,20 @@ Feature maps in each layer:
 
 ```
 LeNet5_from_scratch/
-├── MNIST_auto_Download.py             # Python script for auto-download of MNIST dataset (MNIST folder)
 ├── LeNet5_train.ipynb                 # Notebook for training and shows the results
 ├── RBF_initial_weight.ipynb           # Notebook shows the fixed weight (ASCII bitmap) in the RBF layer
 ├── ExeSpeedTest.ipynb                 # Comparison of different version of Conv. & Pooling functions
 ├── Best_model.pkl                     # The model with 98.6% accuracy both on training and testing data 
-│                                      # Please download at [link] or try to train one by youtself :).
+│                                      # Please download at [link] or try to train one by youtself :)
 │
+├── MNIST_auto_Download.py             # Python script for auto-download of MNIST dataset (like below)
 ├── MNIST/                             # Folder contains MNIST training and testing data
 │   ├── train-images-idx3-ubyte        # Training images
 │   ├── train-labels-idx1-ubyte        # Training labels
 │   ├── t10k-images-idx3-ubyte         # Testing images
 │   └── t10k-labels-idx1-ubyte         # Testing labels
 │
-└── utils/                             # package
+└── utils/                             # Package
     ├── __init__.py 
     ├── Convolution_util.py            # Convolution forward and backward
     ├── Pooling_util.py                # Pooling forward and backward
@@ -91,4 +91,3 @@ Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementati
 1. Compare RBF layer with softmax layer (cross entropy) or simpy a FC layer
 2. Accelerate with Cython or PyCuda
 3. Try using sub-sampling layer
-
