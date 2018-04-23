@@ -80,7 +80,7 @@ Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementati
 
 1. [Yann LeCun's paper](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
 2. [Marcel Wang's blog](http://hemingwang.blogspot.tw/search/label/_社團：技術：mAiLab)
-    * Special thanks to Marcel Wang for encouraging evryone to do this project.
+    * Special thanks to Marcel Wang for encouraging everyone to do this project.
 3. [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning)
     * Epic lectures & inspiring assignments. Couldn't done this if I didn't take the courses.
 1. [agjayant's repo](https://github.com/agjayant/CNN-Numpy)
