@@ -22,6 +22,8 @@ Highest accuracy of 98.6% on MNIST testing dataset has achieved in 20 epoches of
 <p align="center">
   <img width="460" height="300" src="./image/errRate.png">
 </p>
+
+Feature maps in each layer:
 <p align="center">
   <img width="800" src="./image/all2.jpg">
 </p>
