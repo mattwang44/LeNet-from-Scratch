@@ -37,7 +37,7 @@ LeNet5_from_scratch/
 ├── RBF_initial_weight.ipynb           # Notebook shows the fixed weight (ASCII bitmap) in the RBF layer
 ├── ExeSpeedTest.ipynb                 # Comparison of different version of Conv. & Pooling functions
 ├── Best_model.pkl                     # The model with 98.6% accuracy both on training and testing data 
-│                                      # Please download at [link] or try to train one by youtself :)
+│                                      # Please download at [https://tinyurl.com/y9d7fzs9] or train one by yourself :)
 │
 ├── MNIST_auto_Download.py             # Python script for auto-download MNIST dataset (like folder below)
 ├── MNIST/                             # Folder contains MNIST training and testing data
