@@ -1,23 +1,31 @@
 # LeNet5 Implementation FROM SCRATCH
 This is an implementation of LeNet5 from [Yann LeCun's paper](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) in 1998, using Numpy & OOP only (without any auto-differentiate tools or deep learning frameworks).
 
-![burst out crying]("./image/meme.jpg")
+<p align="center">
+  <img width="460" height="300" src="./image/meme.jpg">
+</p>
 
 ## Why LeNet5
 
 LeNet5 is the first ConvNet that using back propagation to update weights, acheived great success in hand writing recognition and utilized by AT&T for reading checks. Many believes that implementing LeNet5 is the best way to learning the programming of backprop for novice (like me). 
 
+Demo by Yann LeCun (1993): 
+<p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=FwFduRA_L6Q
 " target="_blank"><img src="http://img.youtube.com/vi/FwFduRA_L6Q/0.jpg" 
-alt="LeNet demo" width="240" height="180" border="10" /></a>
+alt="LeNet demo" width="240" height="180" border="10" /></a></p>
 
 ## Result of Training 
 
 Highest accuracy of 98.6% on MNIST testing dataset has achieved in 20 epoches of training (93.5% after 1st epoch). The training (20 epoches) takes about 3.5 hours using CPU.
 
-![0/1 Error Rate](./image/errRate.png)
+<p align="center">
+  <img width="460" height="300" src="./image/errRate.png">
+</p>
+<p align="center">
+  <img width="800" src="./image/all2.jpg">
+</p>
 
-![insight](./image/all2.jpg)
 
 ## File Structure
 
@@ -49,7 +57,9 @@ LeNet5_from_scratch/
 
 The original structure is:
 
-![LeNet5](./image/lenet5.png)
+<p align="center">
+  <img width="800" src="./image/lenet5.png">
+</p>
 
 The structure used here is much alike, but still have some differences:
 
