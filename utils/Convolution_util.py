@@ -144,7 +144,7 @@ def conv_SDLM(dZ, cache):
 
 
 
-################################### functions below are USELESS ################################################
+################################### functions below are NOT USED in training ################################################
 def conv_single_step(a_slice_prev, W, b):
     """
     Apply one filter defined by parameters W on a single slice (a_slice_prev) of the output activation 
