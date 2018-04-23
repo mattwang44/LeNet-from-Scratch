@@ -90,6 +90,6 @@ Stochastic Diagonal Levenberg-Marquaedt method is also used in this implementati
 
 ## Todo list
 
-1. Compare RBF layer with softmax layer (cross entropy) or simpy a FC layer
+1. Compare RBF layer with softmax layer (cross entropy) or simply a FC layer
 2. Accelerate with Cython or PyCuda
 3. Try using sub-sampling layer
