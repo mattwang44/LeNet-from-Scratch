@@ -39,7 +39,7 @@ LeNet5_from_scratch/
 ├── Best_model.pkl                     # The model with 98.6% accuracy both on training and testing data 
 │                                      # Please download at [link] or try to train one by youtself :)
 │
-├── MNIST_auto_Download.py             # Python script for auto-download of MNIST dataset (like below)
+├── MNIST_auto_Download.py             # Python script for auto-download MNIST dataset (like folder below)
 ├── MNIST/                             # Folder contains MNIST training and testing data
 │   ├── train-images-idx3-ubyte        # Training images
 │   ├── train-labels-idx1-ubyte        # Training labels
