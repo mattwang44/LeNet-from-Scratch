@@ -66,7 +66,7 @@ The original structure is:
 
 The structure used here is much alike, but still have some differences:
 
-1. Substitute the **sub-sampling** with **average pooling**, which is more accpetable choice without trainable parameters in the layer and needless to be followed by an activation funciton. I've tried using max-pooling, but it blurs the feature maps in this case and gave low accuracy.
+1. Substitute the **sub-sampling** with **average pooling**, which is more accpetable choice without trainable parameters in the layer and needless to be followed by an activation funciton. I've tried using max-pooling, but it blurs the feature maps in this case and gives low accuracy.
 
 2. I used **momentum optimizer** (momentum=0.9), which wasn't used in the original LeNet5, to accelerate the training process. 
 
