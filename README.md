@@ -9,7 +9,7 @@ This is an implementation of LeNet5 from [Yann LeCun's paper](http://yann.lecun.
 
 LeNet is the first ConvNet that using back propagation to update weights, acheived great success in hand writing recognition and utilized by AT&T for reading checks. Many believes that implementing LeNet5 is the best way to learn the programming of backprop for novice (like me). 
 
-Demo by Yann LeCun (1993): 
+Demo by Yann LeCun in 1993 (it's my birth year, so quite astonishing for me): 
 <p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=FwFduRA_L6Q
 " target="_blank"><img src="http://img.youtube.com/vi/FwFduRA_L6Q/0.jpg" 
