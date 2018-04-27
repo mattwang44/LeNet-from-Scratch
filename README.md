@@ -13,7 +13,7 @@ Demo by Yann LeCun in 1993 on YouTube (it's my birth year, so quite astonishing 
 <p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=FwFduRA_L6Q
 " target="_blank"><img src="http://img.youtube.com/vi/FwFduRA_L6Q/0.jpg" 
-alt="LeNet demo" width="480" height="360" border="10" /></a></p>
+alt="LeNet demo" width="450" height="340" border="10" /></a></p>
 
 ## Result of Training 
 
