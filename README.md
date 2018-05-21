@@ -9,7 +9,7 @@ This is an implementation of LeNet5 from [Yann LeCun's paper](http://yann.lecun.
 
 LeNet is the first ConvNet that using back propagation to update weights, acheived great success in hand writing recognition and utilized by AT&T for reading checks. Many believes that implementing LeNet5 is the best way to learn the programming of backprop for novice (like me). 
 
-Demo by Yann LeCun in 1993 on YouTube (it's my birth year, so quite astonishing for me): 
+Demo by Yann LeCun in 1993 on YouTube (it's my birth year, so the demo is quite astonishing for me): 
 <p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=FwFduRA_L6Q
 " target="_blank"><img src="http://img.youtube.com/vi/FwFduRA_L6Q/0.jpg" 
@@ -51,7 +51,7 @@ LeNet5_from_scratch/
     ├── Convolution_util.py            # Convolution forward and backward
     ├── Pooling_util.py                # Pooling forward and backward
     ├── Activation_util.py             # Activation functions
-    ├── utils_func.py                  # Other functions like normalize(), initilize(), zero_pad(), etc
+    ├── utils_func.py                  # Other functions like normalize(), initialize(), zero_pad(), etc
     ├── RBF_initial_weight.py          # Setting fixed weight (ASCII bitmap) in the RBF layer
     └── LayerObjects.py                # All the layer objects
 ```
