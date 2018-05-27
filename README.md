@@ -17,7 +17,7 @@ alt="LeNet demo" width="450" height="340" border="10" /></a></p>
 
 ## Result of Training 
 
-Highest accuracy of 98.6% on MNIST testing dataset has achieved in 20 epoches of training (93.5% after 1st epoch). The training (20 epoches, batch size = 256) takes about 3.5 hours using CPU.
+Highest accuracy of 98.6% on MNIST testing dataset has achieved in 20 epoches of training (93.5% after 1st epoch). The training (20 epoches, batch size = 256) takes about 2 hours using CPU (3.5 hours if evaluate after each epoch).
 
 <p align="center"> 
   <img width="460" height="300" src="./image/errRate.png">
