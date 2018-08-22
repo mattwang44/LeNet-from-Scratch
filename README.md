@@ -1,9 +1,11 @@
 # LeNet5 Implementation FROM SCRATCH
 This is an implementation of LeNet5 from [Yann LeCun's paper](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) in 1998, using Numpy & OOP only (without any auto-differentiate tools or deep learning frameworks).
 
+<!--
 <p align="center">
   <img width="460" height="300" src="./image/meme.jpg">
 </p>
+-->
 
 ## Why LeNet5
 
